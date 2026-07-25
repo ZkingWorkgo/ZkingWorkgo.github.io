@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026代理IP服务怎么选？住宅、ISP、移动与机房代理对比</title>
+  <meta name="description" content="解释住宅代理、静态ISP代理、移动代理与机房代理的区别，并比较Bright Data、Oxylabs、Decodo、SOAX、IPRoyal和Webshare的公开能力、计费与限制。">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="author" content="指纹浏览器生态指南">
+  <link rel="canonical" href="https://fingerprint-browser-guide.github.io/proxy-ip-services/">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:site_name" content="指纹浏览器生态指南">
+  <meta property="og:title" content="2026代理IP服务怎么选？住宅、ISP、移动与机房代理对比">
+  <meta property="og:description" content="解释住宅代理、静态ISP代理、移动代理与机房代理的区别，并比较Bright Data、Oxylabs、Decodo、SOAX、IPRoyal和Webshare的公开能力、计费与限制。">
+  <meta property="og:url" content="https://fingerprint-browser-guide.github.io/proxy-ip-services/">
+  <meta property="og:image" content="https://fingerprint-browser-guide.github.io/assets/proxy-ip-services/proxy-ip-services-guide-2026.webp">
+  <meta property="og:image:width" content="1600">
+  <meta property="og:image:height" content="900">
+  <meta property="og:image:alt" content="2026代理IP服务怎么选？住宅、ISP、移动与机房代理对比">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026代理IP服务怎么选？住宅、ISP、移动与机房代理对比">
+  <meta name="twitter:description" content="解释住宅代理、静态ISP代理、移动代理与机房代理的区别，并比较Bright Data、Oxylabs、Decodo、SOAX、IPRoyal和Webshare的公开能力、计费与限制。">
+  <meta name="twitter:image" content="https://fingerprint-browser-guide.github.io/assets/proxy-ip-services/proxy-ip-services-guide-2026.webp">
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "2026代理IP服务怎么选？住宅、ISP、移动与机房代理对比",
+  "description": "解释住宅代理、静态ISP代理、移动代理与机房代理的区别，并比较Bright Data、Oxylabs、Decodo、SOAX、IPRoyal和Webshare的公开能力、计费与限制。",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://fingerprint-browser-guide.github.io/assets/proxy-ip-services/proxy-ip-services-guide-2026.webp",
+    "width": 1600,
+    "height": 900
+  },
+  "datePublished": "2026-07-23",
+  "dateModified": "2026-07-25",
+  "inLanguage": "zh-CN",
+  "author": {
+    "@type": "Organization",
+    "name": "指纹浏览器生态指南",
+    "url": "https://fingerprint-browser-guide.github.io/about/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "指纹浏览器生态指南",
+    "url": "https://fingerprint-browser-guide.github.io/about/"
+  },
+  "mainEntityOfPage": "https://fingerprint-browser-guide.github.io/proxy-ip-services/",
+  "isPartOf": {
+    "@type": "CollectionPage",
+    "name": "指纹浏览器生态指南",
+    "url": "https://fingerprint-browser-guide.github.io/"
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "代理IP"
+    },
+    {
+      "@type": "Thing",
+      "name": "住宅代理"
+    },
+    {
+      "@type": "Thing",
+      "name": "ISP代理"
+    },
+    {
+      "@type": "Thing",
+      "name": "移动代理"
+    },
+    {
+      "@type": "Thing",
+      "name": "机房代理"
+    }
+  ],
+  "citation": [
+    "https://github.com/fingerprint-browser-guide/proxy-ip-services",
+    "https://github.com/fingerprint-browser-guide/proxy-ip-services/blob/main/SOURCES.md",
+    "https://github.com/fingerprint-browser-guide/proxy-ip-services/blob/main/METHODOLOGY.md"
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "研究首页",
+      "item": "https://fingerprint-browser-guide.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "代理IP",
+      "item": "https://fingerprint-browser-guide.github.io/proxy-ip-services/"
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header">
+    <nav class="nav shell" aria-label="主导航">
+      <a class="brand" href="/" aria-label="指纹浏览器生态指南首页">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span>指纹浏览器生态指南</span>
+      </a>
+      <div class="nav-links">
+        <a href="/#projects">当前研究</a>
+        <a href="/editorial-policy/">编辑与证据</a>
+        <a href="/about/">关于本站</a>
+        <a href="https://github.com/fingerprint-browser-guide/proxy-ip-services">数据与证据</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <article>
+      <header class="article-hero">
+        <div class="shell">
+          <nav class="breadcrumb" aria-label="面包屑">
+            <a href="/">研究首页</a><span>/</span><span aria-current="page">代理IP</span>
+          </nav>
+          <p class="eyebrow"><span></span>代理IP · 完整中文专题</p>
+          <h1>2026代理IP服务怎么选？<br><em>住宅、ISP、移动与机房代理对比</em></h1>
+          <p class="article-lead">选择代理IP不能只看IP池规模和首页最低价。代理来源、会话方式、定位粒度、认证、并发、流量过期和使用规则会共同决定真实成本。</p>
+          <div class="article-meta">
+            <span>公开资料核查：2026-07-23</span>
+            <span>4类代理 · 6个代表性平台</span>
+            <span>统一横向实测：尚未进行</span>
+          </div>
+          <p class="article-byline">编辑与维护：<a href="/about/">指纹浏览器生态指南</a> · <a href="/editorial-policy/">查看内容如何制作、核查与更正</a></p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#article-body">阅读完整文章</a>
+            <a class="button button-secondary" href="https://github.com/fingerprint-browser-guide/proxy-ip-services">打开数据与证据</a>
+          </div>
+        </div>
+      </header>
+
+      <div class="shell article-shell">
+        <figure class="article-cover">
+          <img src="/assets/proxy-ip-services/proxy-ip-services-guide-2026.webp" width="1600" height="900" alt="2026代理IP服务怎么选？住宅、ISP、移动与机房代理对比">
+          <figcaption>本页是面向读者与搜索入口的完整文章；来源台账、结构化数据和版本记录保存在对应GitHub仓库。</figcaption>
+        </figure>
+
+        <div class="article-layout">
+          <div class="article-content long-form-content" id="article-body">
+            <section class="answer-card" id="quick-answer">
+              <p class="answer-label">直接回答</p>
+              <h2>2026代理IP服务怎么选？</h2>
+              <p>指纹浏览器搭配代理时，先按任务确认住宅、静态ISP、移动或机房代理，再核对该具体产品的地区库存、粘性会话、协议、认证和计费单位。供应商宣称的全球IP池规模，不能替代目标国家和目标会话的实际可用性。</p>
+              <dl class="claim-meta">
+                <div><dt>证据范围</dt><dd>官网、帮助中心、价格页、开发文档、政策或公开代码仓库</dd></div>
+                <div><dt>结论性质</dt><dd>公开资料核查与编辑分析；未标注 tested 的内容不是统一实测</dd></div>
+                <div><dt>核查日期</dt><dd>2026-07-23</dd></div>
+              </dl>
+              
+            </section>
+<blockquote>
+<p><strong>资料状态（2026-07-23）：已完成首版官方资料对比；尚未进行统一条件实测。</strong><br>本文比较的是产品类型、公开能力和选型逻辑，不提供“成功率”“纯净率”或绕过平台规则的承诺。</p>
+</blockquote>
+<p>代理 IP 不是只看 IP 数量和单价就能选出的产品。住宅、ISP、移动与机房代理的网络来源、会话方式、计费单位和使用限制不同；同一供应商的不同产品也不能混为一谈。</p>
+<p>本文把 Bright Data、Oxylabs、Decodo、SOAX、IPRoyal 和 Webshare 放进同一套字段中，帮助中文用户先缩小范围，再用自己的目标地区和合规业务做小样本验证。</p>
+<h2 id="一分钟结论">一分钟结论</h2>
+<ul>
+<li>先确定代理类型。需要大量轮换出口时再看住宅或移动网络；需要固定出口时优先核对静态 ISP 或专用机房代理。</li>
+<li>不要直接比较首页最低价。按 GB、按 IP、按端口和按月的产品，必须换算成同一业务周期的总成本。</li>
+<li>“支持某国家”不等于能稳定提供城市、ASN 或运营商级定位；定位粒度要以具体产品文档为准。</li>
+<li>轮换、粘性会话、认证、并发和流量过期规则，往往比宣传的 IP 池规模更影响实际使用。</li>
+<li>本专题目前适合做初筛，不支持“某家通过率最高”的结论。真实效果必须在相同时间、地区、目标页和请求规模下复测。</li>
+</ul>
+<h2 id="先分清四种代理">先分清四种代理</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>类型</th>
+<th>典型特征</th>
+<th>更适合核对的场景</th>
+<th>主要代价</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>住宅代理</td>
+<td>出口来自住宅网络，常按流量计费</td>
+<td>地区可用性检查、公开页面本地化验证</td>
+<td>成本较高，出口与会话会变化</td>
+</tr>
+<tr>
+<td>ISP 代理</td>
+<td>数据中心托管但由 ISP 分配地址，常见静态会话</td>
+<td>需要较长会话或固定出口的合规业务</td>
+<td>国家和库存可能有限</td>
+</tr>
+<tr>
+<td>移动代理</td>
+<td>出口来自移动运营商网络</td>
+<td>移动网络下的页面和应用兼容性测试</td>
+<td>价格通常更高，共享与轮换规则复杂</td>
+</tr>
+<tr>
+<td>机房代理</td>
+<td>数据中心地址，按 IP、端口或流量销售</td>
+<td>高吞吐、低成本、允许自动化的公开数据任务</td>
+<td>更容易被部分网站识别为数据中心</td>
+</tr>
+</tbody></table></div>
+<h2 id="核心产品与工具对比">核心产品与工具对比</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>服务</th>
+<th>官方公开产品</th>
+<th>定位能力</th>
+<th>会话与协议</th>
+<th>初步适合谁</th>
+<th>核查</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Bright Data</td>
+<td>住宅、ISP、移动、机房等</td>
+<td>国家、城市等能力依产品而定</td>
+<td>轮换/粘性；HTTP(S)、SOCKS5 依产品</td>
+<td>需要多种代理类型与较细配置的团队</td>
+<td><a href="https://docs.brightdata.com/proxy-networks/residential/introduction">官方文档</a></td>
+</tr>
+<tr>
+<td>Oxylabs</td>
+<td>住宅、ISP、移动、机房等</td>
+<td>国家/州/城市/ASN 等依产品而定</td>
+<td>HTTP(S)、SOCKS5 与会话规则依产品</td>
+<td>企业级采购、需要文档和支持的团队</td>
+<td><a href="https://developers.oxylabs.io/proxies/residential-proxies">官方文档</a></td>
+</tr>
+<tr>
+<td>Decodo</td>
+<td>住宅、静态住宅、移动、机房等</td>
+<td>地区选择能力依网络与套餐而定</td>
+<td>轮换与粘性会话</td>
+<td>希望在自助购买和产品覆盖间平衡的用户</td>
+<td><a href="https://decodo.com/pricing">官方定价</a></td>
+</tr>
+<tr>
+<td>SOAX</td>
+<td>住宅、移动、ISP、机房等</td>
+<td>国家、地区、城市、运营商等依产品而定</td>
+<td>轮换与会话控制</td>
+<td>重视地理和运营商筛选的业务</td>
+<td><a href="https://soax.com/pricing">官方定价</a></td>
+</tr>
+<tr>
+<td>IPRoyal</td>
+<td>住宅、静态住宅、机房、移动等</td>
+<td>国家/地区能力依产品而定</td>
+<td>住宅流量与静态产品分别计费</td>
+<td>小规模起步、希望按需购买的用户</td>
+<td><a href="https://iproyal.com/residential-proxies/">住宅代理</a></td>
+</tr>
+<tr>
+<td>Webshare</td>
+<td>代理服务器、静态住宅、住宅等</td>
+<td>国家筛选及更多能力依套餐而定</td>
+<td>HTTP、SOCKS5；认证方式依产品</td>
+<td>需要快速配置和自助管理的开发者</td>
+<td><a href="https://www.webshare.io/pricing">官方定价</a></td>
+</tr>
+</tbody></table></div>
+<p>这张表只表示截至核查日能从官方页面确认的产品范围，不表示这些服务在特定网站上的可用率，也不构成从第一到第六的排名。</p>
+<h2 id="六个平台分别怎么看">六个平台分别怎么看</h2>
+<h3 id="bright-data">Bright Data</h3>
+<p>产品线覆盖较广，官方文档把不同代理网络、会话和定位参数拆分说明。优势是配置维度多，代价是选型和成本核算更复杂。适合先明确网络类型、地区粒度和流量规模，再进入具体产品页核价的团队。</p>
+<h3 id="oxylabs">Oxylabs</h3>
+<p>同样覆盖多类代理网络，开发者文档较完整。企业采购不能只看公开单价，还应核对支持方式、流量承诺、账户规则以及具体区域库存。不要把某个网络支持的定位能力外推到全部产品。</p>
+<h3 id="decodo">Decodo</h3>
+<p>提供多类代理和自助定价入口，适合将住宅、静态住宅、移动和机房产品分别核算。比较时应把套餐包含量、超额价格、并发或端口限制写入同一张成本表。</p>
+<h3 id="soax">SOAX</h3>
+<p>公开产品强调多类代理与地理筛选。对需要城市或运营商条件的用户，关键不是“覆盖多少国家”，而是目标地区在所选产品和当时库存中是否可选。</p>
+<h3 id="iproyal">IPRoyal</h3>
+<p>产品划分相对直观，住宅流量型与静态代理的购买模型不同。小额起步前仍需确认流量是否过期、会话控制、认证方式和退款条件。</p>
+<h3 id="webshare">Webshare</h3>
+<p>面向开发者的自助入口清晰，代理服务器、静态住宅和住宅网络需分别理解。免费或低门槛方案可以用来熟悉控制台，但不能代表付费网络在目标地区的表现。</p>
+<h2 id="怎么选-按条件而不是按榜单">怎么选：按条件而不是按榜单</h2>
+<ol>
+<li>写下任务边界：合法用途、目标国家/城市、预计并发、月流量和会话时长。</li>
+<li>选择网络类型：轮换住宅、静态 ISP、移动或机房，不把四类产品放在同一价格列。</li>
+<li>统一成本单位：把最低消费、流量、IP 数、端口、税费和过期规则换算为月度总成本。</li>
+<li>核对技术条件：协议、白名单/账号密码认证、粘性会话、地区参数、API 和并发限制。</li>
+<li>用最小套餐验证：固定测试脚本、目标页、时间段和失败定义，保留脱敏日志。</li>
+<li>再做采购决定：把质量、支持、合规条款和切换成本一起考虑。</li>
+</ol>
+<h2 id="常见误区">常见误区</h2>
+<ul>
+<li><strong>把 IP 池规模当成可用库存。</strong> 池规模不等于某个城市在某一时刻可分配的出口。</li>
+<li><strong>把一次成功写成长期成功率。</strong> 网站、网络、时段和请求行为都会改变结果。</li>
+<li><strong>用营销标签判断线路来源。</strong> “住宅”“静态住宅”“ISP”应以供应商定义和可验证网络信息为准。</li>
+<li><strong>忽略流量过期与最低消费。</strong> 低单价可能建立在更高承诺量上。</li>
+<li><strong>把代理当作合规替代品。</strong> 使用代理仍需遵守适用法律、网站条款和数据保护要求。</li>
+</ul>
+<h2 id="常见问题">常见问题</h2>
+<h3 id="哪一家代理-ip-最好">哪一家代理 IP 最好？</h3>
+<p>没有脱离条件的“最好”。目标地区、会话长度、协议、流量、预算和网站规则不同，结果会改变。本仓库只提供条件化初筛。</p>
+<h3 id="住宅代理一定比机房代理好吗">住宅代理一定比机房代理好吗？</h3>
+<p>不一定。允许自动化的公开数据任务可能更重视速度和成本；需要住宅网络观察的测试才有理由选择住宅出口。</p>
+<h3 id="能否直接相信供应商公布的成功率">能否直接相信供应商公布的成功率？</h3>
+<p>只能把它当作供应商在其定义条件下的声明。若缺少分母、目标、时间窗口和失败定义，就不能与其他数字直接横向比较。</p>
+<h3 id="指纹浏览器和代理-ip-是什么关系">指纹浏览器和代理 IP 是什么关系？</h3>
+<p>代理主要改变网络出口；指纹浏览器管理浏览器环境。两者作用不同，且都不能保证账号结果。可参阅<a href="https://github.com/fingerprint-browser-guide/fingerprint-browser">指纹浏览器指南</a>。</p>
+<h2 id="数据与证据">数据与证据</h2>
+<ul>
+<li><a href="https://github.com/fingerprint-browser-guide/proxy-ip-services/blob/main/data/proxy-ip.csv">结构化产品数据</a></li>
+<li><a href="https://github.com/fingerprint-browser-guide/proxy-ip-services/blob/main/data/comparison-dimensions.csv">比较维度</a></li>
+<li><a href="https://github.com/fingerprint-browser-guide/proxy-ip-services/blob/main/docs/product-facts.md">产品事实卡</a></li>
+<li><a href="https://github.com/fingerprint-browser-guide/proxy-ip-services/blob/main/docs/selection-and-test-guide.md">选择与测试指南</a></li>
+<li><a href="https://github.com/fingerprint-browser-guide/proxy-ip-services/blob/main/METHODOLOGY.md">研究方法</a></li>
+<li><a href="https://github.com/fingerprint-browser-guide/proxy-ip-services/blob/main/SOURCES.md">来源台账</a></li>
+</ul>
+<h2 id="相关项目">相关项目</h2>
+<ul>
+<li><a href="https://fingerprint-browser-guide.github.io/">指纹浏览器生态指南</a></li>
+<li><a href="https://github.com/fingerprint-browser-guide/browser-fingerprint-checkers">浏览器指纹检测工具</a></li>
+<li><a href="https://github.com/fingerprint-browser-guide/browser-automation-tools">浏览器自动化工具</a></li>
+</ul>
+<h2 id="贡献与声明">贡献与声明</h2>
+<p>欢迎通过 Issue 提交价格变化、失效链接或可复现数据；请先阅读 <a href="https://github.com/fingerprint-browser-guide/proxy-ip-services/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a>。本仓库不提供规避访问控制、验证码、反滥用系统或网站条款的操作教程。详见 <a href="https://github.com/fingerprint-browser-guide/proxy-ip-services/blob/main/DISCLAIMER.md">DISCLAIMER.md</a>。</p>
+<h2 id="公开事实卡与待验证问题">公开事实卡与待验证问题</h2>
+<p>本页把“官方能确认的事实”与“仍需实测的问题”分开。六个平台的产品类型均以 <code>SOURCES.md</code> 中官方页面为依据。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>服务</th>
+<th>已确认</th>
+<th>仍需统一实测</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Bright Data</td>
+<td>多类代理网络，文档区分住宅和 ISP 等产品</td>
+<td>目标地区可用库存、延迟、长期会话稳定性</td>
+</tr>
+<tr>
+<td>Oxylabs</td>
+<td>多类代理产品，并提供开发者文档</td>
+<td>同地区同脚本下的错误分布与总成本</td>
+</tr>
+<tr>
+<td>Decodo</td>
+<td>多类自助代理产品与定价入口</td>
+<td>套餐限制、目标节点表现和支持响应</td>
+</tr>
+<tr>
+<td>SOAX</td>
+<td>多类代理与定位选项入口</td>
+<td>细粒度库存、会话连续性和失败类型</td>
+</tr>
+<tr>
+<td>IPRoyal</td>
+<td>住宅、静态住宅等产品入口</td>
+<td>流量型与静态产品在相同任务下的成本</td>
+</tr>
+<tr>
+<td>Webshare</td>
+<td>多种自助代理产品和协议入口</td>
+<td>不同套餐的限制、节点质量与高并发表现</td>
+</tr>
+</tbody></table></div>
+<p>未列出的能力视为 <code>unknown</code>，而不是“不支持”。</p>
+<h2 id="选择与最小测试指南">选择与最小测试指南</h2>
+<h2 id="采购前">采购前</h2>
+<p>记录目标国家/城市、代理类型、协议、日请求量、峰值并发、单次会话长度和预算。先排除不满足地区、协议、条款或最低消费的产品。</p>
+<h2 id="最小验证">最小验证</h2>
+<ol>
+<li>为所有候选使用同一测试脚本和允许自动访问的目标。</li>
+<li>固定时间窗口、出口条件、请求次数、超时和重试策略。</li>
+<li>记录分配时间、出口国家/城市/ASN、响应时间、状态码和失败类型。</li>
+<li>会话测试分别记录轮换和粘性模式，不混合计算。</li>
+<li>公开结论时同时给出分母、日期、版本和原始脱敏数据。</li>
+</ol>
+<h2 id="不可接受的结论">不可接受的结论</h2>
+<ul>
+<li>未给测试条件的“成功率 99%”</li>
+<li>单次访问后的“最稳定”</li>
+<li>把官方池规模写成实时可用 IP 数</li>
+<li>用一个国家的结果推断全球网络</li>
+<li>把网站拒绝归因于代理而不排查浏览器、账户和请求行为</li>
+</ul>
+
+            <section class="editorial-note" aria-labelledby="editorial-note-title">
+              <p class="section-kicker">Who · How · Why</p>
+              <h2 id="editorial-note-title">这篇内容是怎样制作的？</h2>
+              <p>本页由“指纹浏览器生态指南”维护，目标是把分散的产品页面整理成可核查的中文比较。自动化工具可以辅助结构整理、格式检查和链接审计，但产品事实必须能够追溯到公开来源；没有测试环境、版本、步骤和原始结果时，不使用“独立实测”标签。</p>
+              <p><a href="/editorial-policy/">查看编辑政策、证据等级和更正流程</a> · <a href="/about/">了解本站范围与维护方式</a></p>
+            </section>
+            <section class="source-cta">
+              <div>
+                <p class="section-kicker">完整证据库</p>
+                <h2>查看结构化数据、来源账本和版本变化</h2>
+                <p>GitHub仓库保存机器可读数据、详细事实卡、核查日期、证据等级、冲突记录与更新历史。</p>
+              </div>
+              <a class="button button-light" href="https://github.com/fingerprint-browser-guide/proxy-ip-services">进入GitHub证据库</a>
+            </section>
+          </div>
+
+          <aside class="article-aside" aria-label="页面导航">
+            <strong>本页内容</strong>
+            <a href="#一分钟结论">一分钟结论</a>
+            <a href="#先分清四种代理">先分清四种代理</a>
+            <a href="#核心产品与工具对比">核心产品与工具对比</a>
+            <a href="#六个平台分别怎么看">六个平台分别怎么看</a>
+            <a href="#怎么选-按条件而不是按榜单">怎么选：按条件而不是按榜单</a>
+            <a href="#常见误区">常见误区</a>
+            <a href="#常见问题">常见问题</a>
+            <a href="#数据与证据">数据与证据</a>
+            <a href="#相关项目">相关项目</a>
+            <a href="#贡献与声明">贡献与声明</a>
+            <a href="#公开事实卡与待验证问题">公开事实卡与待验证问题</a>
+            <a href="#选择与最小测试指南">选择与最小测试指南</a>
+            <a href="#采购前">采购前</a>
+            <a href="#最小验证">最小验证</a>
+            <a href="#不可接受的结论">不可接受的结论</a>
+            <a href="https://github.com/fingerprint-browser-guide/proxy-ip-services">完整证据库 ↗</a>
+          </aside>
+        </div>
+      </div>
+    </article>
+
+    <section class="related">
+      <div class="shell">
+        <p class="eyebrow"><span></span>Related research</p>
+        <h2>继续查看相关专题</h2>
+        <div class="related-grid">
+          <a href="/fingerprint-browser/"><b>指纹浏览器</b><span>2026指纹浏览器怎么选？12款防关联浏览器价格、功能与适用场景对比 →</span></a>
+          <a href="/browser-fingerprint-checkers/"><b>指纹检测</b><span>2026浏览器指纹检测工具怎么选？BrowserLeaks、CreepJS等8个工具对比 →</span></a>
+          <a href="/cloud-phone-platforms/"><b>云手机</b><span>2026云手机平台怎么选？6个Android云手机的计费、环境与管理能力对比 →</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <div><strong>指纹浏览器生态指南</strong><p>指纹浏览器及配套工具的中文研究、完整文章与公开数据索引。</p></div>
+      <div class="footer-links"><a href="/">研究首页</a><a href="/about/">关于本站</a><a href="/editorial-policy/">编辑政策</a><a href="/sitemap.xml">Sitemap</a></div>
+      <small>页面更新：2026-07-25</small>
+    </div>
+  </footer>
+</body>
+</html>
